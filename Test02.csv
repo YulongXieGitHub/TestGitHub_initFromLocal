@@ -4,6 +4,9 @@ YuLong Xie
 
 
 Learning github from the Youtube Tutorial: "https://www.youtube.com/watch?v=Y9XZQO1n_7c"
+(this Youtube Vedio only talked about how to create a local repsotiory but did not say how to osuh the local respotiroty to remore github.)
+(need to watch a second Youtube "https://www.youtube.com/watch?v=19d7RK0RDjg' to learn how to push the created local repository to the remote github 
+
 
 ----------------------------- exercise two: (1) create local folder, (2) initilize it as a repository (3) push back to github.com ---------------------------
 
@@ -98,6 +101,28 @@ then merge with the source which is [MyBranch] at this case.
 ---------------------------------------------------
 
 
-------------------- end of this first exercise -------------------------
+------------------- end of part 1 of this second exercise -------------------------
+    
+
+
+
+
+----------------------------- exercise two:  push back to github.com ---------------------------
+    Youtube Vedio: https://www.youtube.com/watch?v=19d7RK0RDjg
+    
+    
+    Now what we have is a local repository created as "TestGitHub_initFromLocal" in local machine
+    
+    Step 1: In GitHub.com, create a repository called "TestGitHub_initFromLocal" and copy the URL "https://github.com/YulongXieGitHub/TestGitHub_initFromLocal.git"
+    
+    Step 2: In "TestGitHub_initFromLocal" of local machine do the following
+    
+    Step 3: [git remote add origin https://github.com/YulongXieGitHub/TestGitHub_initFromLocal.git
+    
+    Step 4: [git pull origin master] since there is already a "readme" file in github which is not in the local folder.
+    
+    Step 5: [git push origin master] to push everything created in local folder to github.com
+------------------- end of part 2 of this second exercise -------------------------
+    
     
     
