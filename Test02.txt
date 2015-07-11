@@ -1,0 +1,28 @@
+July 11, 2015
+
+YuLong Xie
+
+
+Learning github from the Youtube Tutorial: "https://www.youtube.com/watch?v=Y9XZQO1n_7c"
+
+----------------------------- exercise two: (1) create local folder, (2) initilize it as a repository (3) push back to github.com ---------------------------
+
+
+Different from Repository "TestGitHub" which was created in github.com and then clone to local machine.
+This time we initialize a repository in the local machine first and then push to the github.com
+
+Step 1: Create a "TestGitHub_initFromLocal" first
+
+Step 2: run [git bash]
+
+Step 3: in git bach, switch to "TestGitHub_initFromLocal" folder
+
+Step 4: [git init]
+
+Step 5: [git status] 
+
+
+	
+------------------- end of this first exercise -------------------------
+    
+    
