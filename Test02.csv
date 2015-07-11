@@ -43,7 +43,7 @@ create a [.gitignore] file to include the type of files which we want to ignore.
 [git checkout MyBranch] to checkout and work on the branch
 
 
-make some changes on the eisting file and create some new files when in MyBranch.
+make some changes on the eisting file and create some new files when in "MyBranch".
 
 Note that: those files created in the MyBranch cannot be seen (literally from Window Exploroer or from Textpad if it is a text file including this sentence) in MyBranch before merging)
 
@@ -64,6 +64,35 @@ then merge with the source which is [MyBranch] at this case.
 
 --------------- to make and then solve a conflict ------------
 [git -a -m '###'] to to have the stage and commit steps into a single step
+
+(1) change "Test02.csv" file by adding "test conflict between "master (Change 4)" branch and "MyBranch (change 5)" by creating and resolving a conflict "
+
+(2) [git commit -a -m "change in master"] in master branch to stage and commit the change made on "Test02.csv"
+
+(3) [git checkout MyBranch] to switch to MyBranch branch
+
+(4) change "Test02.csv" file by adding "ttest conflict between "master" branch (change 4) and "MyBranch" branch (change 5)"
+
+(5) [git commit -a -m "change in master"] in MyBranch to stage and commit the change made on "Test02.csv"
+
+(6) [git merge master] to merge source (master) to desitination (MyBranch): Merge the change made during master branch and during MyBranch
+
+(7) Waring prompted to indicate conflict.
+    In Textpad, you even can see the conflict  as follows:
+
+
+	****************************************************************************************************************    
+	<<<<<<< HEAD
+	test conflict between "master (Change 4)" branch and "MyBranch (change 5)" by creating and resolving a conflict 
+	=======
+	test conflict between "master" branch (change 4) and "MyBranch" branch (change 5)
+	>>>>>>> master
+	****************************************************************************************************************    
+
+(8) [git commit -a -m "merge from master"]: Manual resolve and the conflict and save the file, then re-stage and re-commit
+	
+
+
 
 
 ------------------- end of this first exercise -------------------------
