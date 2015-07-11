@@ -52,6 +52,11 @@ if we switch back to the master barnch by [git checkout master], this writing an
 
 But if we switch back to MyBranch again with [git checkout MyBranch] we will see these writing and file names again!!!!
 
+All the change made in MyBranch can only be preserved after merging the Branch to the Main Branch which is "master".
+
+Before merging we need to make sure we are in the destination branch which is "master" for this case.
+
+
 
 
 ------------------- end of this first exercise -------------------------
