@@ -34,6 +34,14 @@ for instance, this file is originally called "Test02.txt" and then renamed to "T
 create a [.gitignore] file to include the type of files which we want to ignore.
 
 
+----------------------------- Testing Branch ------------------------
+(1) "master" is always 
+
+[git]
+
+[git branch MyBranch] to create a branch (it seems like only those files having not been committed will be in the branch???
+
+[git checkout MyBranch] to checkout and work on the branch
 
 
 ------------------- end of this first exercise -------------------------
