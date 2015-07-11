@@ -56,7 +56,14 @@ All the change made in MyBranch can only be preserved after merging the Branch t
 
 Before merging we need to make sure we are in the destination branch which is "master" for this case.
 
+Before merge, we need to be in the destination branch which is [master] for this case:
+[git checkout master]
 
+then merge with the source which is [MyBranch] at this case.
+[git merge MyBranch]
+
+--------------- to make and then solve a conflict ------------
+[git -a -m '###'] to to have the stage and commit steps into a single step
 
 
 ------------------- end of this first exercise -------------------------

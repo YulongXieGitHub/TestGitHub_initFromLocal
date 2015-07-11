@@ -1,3 +1,5 @@
 change 1
 change 2
 change 3
+
+test conflict between "master" branch (change 4) and "MyBranch" branch (change 5)
