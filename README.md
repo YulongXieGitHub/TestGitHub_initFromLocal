@@ -51,3 +51,4 @@ Note:  When exit from a local repository and enter another local repository, all
        New remote connection to the github.com repositories need to established.
        
        
+[git push TestGitHub_initFromLocal master] 
