@@ -37,11 +37,21 @@ create a [.gitignore] file to include the type of files which we want to ignore.
 ----------------------------- Testing Branch ------------------------
 (1) "master" is always 
 
-[git]
 
 [git branch MyBranch] to create a branch (it seems like only those files having not been committed will be in the branch???
 
 [git checkout MyBranch] to checkout and work on the branch
+
+
+make some changes on the eisting file and create some new files when in MyBranch.
+
+Note that: those files created in the MyBranch cannot be seen (literally from Window Exploroer or from Textpad if it is a text file including this sentence) in MyBranch before merging)
+
+if we switch back to the master barnch by [git checkout master], this writing and the files created during MyBranch will not be able to seen.
+
+
+But if we switch back to MyBranch again with [git checkout MyBranch] we will see these writing and file names again!!!!
+
 
 
 ------------------- end of this first exercise -------------------------
