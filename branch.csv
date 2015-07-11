@@ -1,5 +1,6 @@
 change 1
 change 2
 change 3
-
 test conflict between "master (Change 4)" branch and "MyBranch (change 5)" by creating and resolving a conflict 
+test conflict between "master" branch (change 4) and "MyBranch" branch (change 5)
+
