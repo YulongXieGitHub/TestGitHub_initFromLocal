@@ -46,3 +46,8 @@ Origin					https://github.com/YulongXieGitHub/TestGitHub.git (push)
 
 When more than one repository is connected, push use the name instead of the [origin]
 
+
+Note:  When exit from a local repository and enter another local repository, all remote connections for the previous local repository are gone.
+       New remote connection to the github.com repositories need to established.
+       
+       
