@@ -92,7 +92,10 @@ then merge with the source which is [MyBranch] at this case.
 (8) [git commit -a -m "merge from master"]: Manual resolve and the conflict and save the file, then re-stage and re-commit
 	
 
-
+---------------------------------------------------
+[git stash]
+[git stash apply]
+---------------------------------------------------
 
 
 ------------------- end of this first exercise -------------------------
