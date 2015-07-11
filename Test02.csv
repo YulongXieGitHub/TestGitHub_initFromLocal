@@ -21,8 +21,17 @@ Step 4: [git init]
 
 Step 5: [git status] 
 
-
+we can use [git log] to see commits
 	
+Step 6: [git add .] to stage more than a single file	
+
+for instance, this file is originally called "Test02.txt" and then renamed to "Test02.csv".
+
+[git rm Test02.txt] removed the already staged "Test02.txt"
+
+[git add .] stages [Test02.csv] and [Test03.csv]
+
+
 ------------------- end of this first exercise -------------------------
     
     
